@@ -12,12 +12,15 @@ Will be invoked by AlfredScript and CommandLine and store in a flat-file local w
 ##Initial Features:
  
   * WikiWorkerClass
+  
     * FindWiki (wiki_name)
     * OpenWiki (folder_path)
     * CopyWiki (folder_path_src, folder_path_dest)
     * GetPages (Tag_Set OR Category_Set) -- ie. by TagCombinations or CategoryCombinations
  
+
  * WikiClass
+
 	 * SetDataFolder
 	 * GetWikiPage (wikipage_name)
 	 * CreateWikiPage (wikipage_name)
@@ -25,7 +28,6 @@ Will be invoked by AlfredScript and CommandLine and store in a flat-file local w
 	 * SetWikiPageFromString(new_page_as_string)
 	 * GetPages (Tag_Set)
 	 * GetPages (Category_Set)
-
 	 * CreateWikiPageTemplate
 	 * UseWikiPageTemplate
  
